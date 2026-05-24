@@ -127,7 +127,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="UsersLogic\Admin.cpp" />
     <ClCompile Include="Calorix.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Exercises\ExerciseEntries.cpp" />
+    <ClCompile Include="Exercises\Exercise.cpp" />
+    <ClCompile Include="FitnessGoal\FitnessGoal.cpp" />
+    <ClCompile Include="Food\FoodEntries.cpp" />
+    <ClCompile Include="Food\Food.cpp" />
+    <ClCompile Include="UsersLogic\UserProfile.cpp" />
+    <ClCompile Include="UsersLogic\User.cpp" />
+    <ClCompile Include="UsersLogic\UserFactory.cpp" />
+    <ClCompile Include="UsersLogic\Trainee.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UsersLogic\Admin.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="Exercises\ExerciseEntries.h" />
+    <ClInclude Include="Exercises\Exercise.h" />
+    <ClInclude Include="FitnessGoal\FitnessGoal.h" />
+    <ClInclude Include="Food\FoodEntries.h" />
+    <ClInclude Include="Food\Food.h" />
+    <ClInclude Include="UsersLogic\UserProfile.h" />
+    <ClInclude Include="UsersLogic\User.h" />
+    <ClInclude Include="UsersLogic\UserFactory.h" />
+    <ClInclude Include="UsersLogic\Trainee.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
