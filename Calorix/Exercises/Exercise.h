@@ -24,6 +24,11 @@ public:
         double caloriesBurnedPerHour,
         MuscleGroup muscleGroup);
 
+    Exercise(int id,
+        const std::string& name,
+        double caloriesBurnedPerHour,
+        MuscleGroup muscleGroup);
+
     int getExerciseId() const;
 
     std::string getName() const;
@@ -31,4 +36,6 @@ public:
     double getCaloriesBurnedPerHour() const;
 
     MuscleGroup getMuscleGroup() const;
+
+    static void setIdGenerator(int val);
 };

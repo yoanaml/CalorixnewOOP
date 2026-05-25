@@ -30,6 +30,7 @@ public:
         Gender gender,
         ActivityLevel activityLevel
     );
+    UserProfile() = default;
 
     int getAge() const;
     double getWeight() const;

@@ -16,6 +16,9 @@ public:
     Trainee(const std::string& username, const std::string& password,
         UserProfile profile);
 
+    Trainee(int id, const std::string& username, const std::string& password,
+        UserProfile profile);
+
     void addFoodEntry(const FoodEntry& entry);
     void addExerciseEntry(const ExerciseEntry& entry);
     void addGoal(const FitnessGoal& goal);

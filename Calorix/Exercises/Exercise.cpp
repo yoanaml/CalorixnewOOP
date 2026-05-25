@@ -11,6 +11,16 @@ Exercise::Exercise(const std::string& name,
     muscleGroup(muscleGroup)
 {
 }
+Exercise::Exercise(int id,
+    const std::string& name,
+    double caloriesBurnedPerHour,
+    MuscleGroup muscleGroup)
+    : exerciseId(id),
+    name(name),
+    caloriesBurnedPerHour(caloriesBurnedPerHour),
+    muscleGroup(muscleGroup)
+{
+}
 
 
 int Exercise::getExerciseId() const {
@@ -28,3 +38,5 @@ double Exercise::getCaloriesBurnedPerHour() const {
 MuscleGroup Exercise::getMuscleGroup() const {
     return muscleGroup;
 }
+
+void Exercise::setIdGenerator(int val) { idGenerator = val; }

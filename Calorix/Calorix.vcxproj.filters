@@ -51,6 +51,9 @@
     <ClCompile Include="UsersLogic\Admin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FileManager\FileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UsersLogic\UserProfile.h">
@@ -84,6 +87,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="UsersLogic\Admin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager\FileManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

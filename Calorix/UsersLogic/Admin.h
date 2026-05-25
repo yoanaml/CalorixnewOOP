@@ -7,6 +7,9 @@ private:
 public:
     Admin(const std::string& username, const std::string& password,
         UserProfile profile, const std::string& adminKey);
+    
+    Admin(int id, const std::string& username, const std::string& password,
+        UserProfile profile, const std::string& adminKey);
 
     const std::string& getAdminKey() const;
     void help() const override;

@@ -10,7 +10,7 @@ private:
 public:
 	static int idGenerator;
 	User(const std::string& username, const std::string& password, UserProfile profile);
-	
+	User(int id, const std::string& username, const std::string& password, UserProfile profile);
 	std::string getUsername() const;
 	std::string getPassword() const;
 	int getId() const;

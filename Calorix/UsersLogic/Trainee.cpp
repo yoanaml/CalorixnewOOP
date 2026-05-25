@@ -5,6 +5,11 @@ Trainee::Trainee(const std::string& username, const std::string& password,
     UserProfile profile)
     : User(username, password, profile) {
 }
+Trainee::Trainee(int id, const std::string& username, const std::string& password,
+    UserProfile profile)
+    : User(id, username, password, profile)
+{
+}
 
 void Trainee::addFoodEntry(const FoodEntry& e) 
 { 

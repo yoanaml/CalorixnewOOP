@@ -15,6 +15,7 @@ public:
     ExerciseEntry(const Exercise& exercise,
         int durationMinutes,
         const Date& date);
+   
 
     int getEntryId() const;
 

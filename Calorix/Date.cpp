@@ -29,11 +29,12 @@ std::string Date::dateToDtring()
 
 Date Date::today() {
     std::time_t t = std::time(nullptr);
-    std::tm* now = std::localtime(&t);
+    std::tm now{};
+    localtime_s(&now, &t);
 
     return Date(
-        now->tm_mday,
-        now->tm_mon + 1,
-        now->tm_year + 1900
+        now.tm_mday,
+        now.tm_mon + 1,
+        now.tm_year + 1900
     );
 }
