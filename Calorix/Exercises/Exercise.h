@@ -1,6 +1,3 @@
-#ifndef EXERCISE_H
-#define EXERCISE_H
-
 #include <string>
 
 enum class MuscleGroup
@@ -41,5 +38,3 @@ public:
 
     static void setIdGenerator(int s8Val);
 };
-
-#endif 

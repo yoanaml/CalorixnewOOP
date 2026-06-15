@@ -1,6 +1,3 @@
-#ifndef DATE_H
-#define DATE_H
-
 #include <string>
 #include <compare>
 
@@ -34,5 +31,3 @@ public:
 
     static Date today();
 };
-
-#endif
