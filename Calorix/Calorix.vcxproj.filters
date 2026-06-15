@@ -36,7 +36,7 @@
     <ClCompile Include="Food\FoodEntries.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Date.cpp">
+    <ClCompile Include="Date\Date.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Exercises\Exercise.cpp">
@@ -74,7 +74,7 @@
     <ClInclude Include="Food\FoodEntries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Date.h">
+    <ClInclude Include="Date\Date.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Exercises\Exercise.h">

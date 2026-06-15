@@ -130,7 +130,7 @@
     <ClCompile Include="FileManager\FileManager.cpp" />
     <ClCompile Include="UsersLogic\Admin.cpp" />
     <ClCompile Include="Calorix.cpp" />
-    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Date\Date.cpp" />
     <ClCompile Include="Exercises\ExerciseEntries.cpp" />
     <ClCompile Include="Exercises\Exercise.cpp" />
     <ClCompile Include="FitnessGoal\FitnessGoal.cpp" />
@@ -144,7 +144,7 @@
   <ItemGroup>
     <ClInclude Include="FileManager\FileManager.h" />
     <ClInclude Include="UsersLogic\Admin.h" />
-    <ClInclude Include="Date.h" />
+    <ClInclude Include="Date\Date.h" />
     <ClInclude Include="Exercises\ExerciseEntries.h" />
     <ClInclude Include="Exercises\Exercise.h" />
     <ClInclude Include="FitnessGoal\FitnessGoal.h" />
