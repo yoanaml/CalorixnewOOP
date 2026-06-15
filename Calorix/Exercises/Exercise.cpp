@@ -1,42 +1,31 @@
 #include "Exercise.h"
 
-int Exercise::idGenerator = 0;
+int Exercise::s8IdGenerator = 0;
 
 Exercise::Exercise(const std::string& name,
-    double caloriesBurnedPerHour,
+    double f32CaloriesBurnedPerHour,
     MuscleGroup muscleGroup)
-    : exerciseId(++idGenerator),
+    : s8ExerciseId(++s8IdGenerator),
     name(name),
-    caloriesBurnedPerHour(caloriesBurnedPerHour),
+    f32CaloriesBurnedPerHour(f32CaloriesBurnedPerHour),
     muscleGroup(muscleGroup)
 {
 }
-Exercise::Exercise(int id,
+
+Exercise::Exercise(int s8Id,
     const std::string& name,
-    double caloriesBurnedPerHour,
+    double f32CaloriesBurnedPerHour,
     MuscleGroup muscleGroup)
-    : exerciseId(id),
+    : s8ExerciseId(s8Id),
     name(name),
-    caloriesBurnedPerHour(caloriesBurnedPerHour),
+    f32CaloriesBurnedPerHour(f32CaloriesBurnedPerHour),
     muscleGroup(muscleGroup)
 {
 }
 
+int         Exercise::getExerciseId()            const { return s8ExerciseId; }
+std::string Exercise::getName()                  const { return name; }
+double      Exercise::getCaloriesBurnedPerHour() const { return f32CaloriesBurnedPerHour; }
+MuscleGroup Exercise::getMuscleGroup()           const { return muscleGroup; }
 
-int Exercise::getExerciseId() const {
-    return exerciseId;
-}
-
-std::string Exercise::getName() const {
-    return name;
-}
-
-double Exercise::getCaloriesBurnedPerHour() const {
-    return caloriesBurnedPerHour;
-}
-
-MuscleGroup Exercise::getMuscleGroup() const {
-    return muscleGroup;
-}
-
-void Exercise::setIdGenerator(int val) { idGenerator = val; }
+void Exercise::setIdGenerator(int s8Val) { s8IdGenerator = s8Val; }
