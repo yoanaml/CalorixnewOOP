@@ -1,43 +1,38 @@
-#pragma once
 #include <string>
 
-class Food {
+class Food
+{
 private:
-    int foodId;
+    int         s8FoodId;
     std::string name;
-    int caloriesPer100g;
-    int proteinPer100g;
-    int carbsPer100g;
-    int fatPer100g;
+    int         s8CaloriesPer100g;
+    int         s8ProteinPer100g;
+    int         s8CarbsPer100g;
+    int         s8FatPer100g;
 
 public:
-    static int idGenerator;
-
+    static int s8IdGenerator;
 
     Food(const std::string& name,
-        int caloriesPer100g,
-        int proteinPer100g,
-        int carbsPer100g,
-        int fatPer100g);
+        int s8CaloriesPer100g,
+        int s8ProteinPer100g,
+        int s8CarbsPer100g,
+        int s8FatPer100g);
 
-
-    Food(int id,
+    Food(int s8Id,
         const std::string& name,
-        int caloriesPer100g,
-        int proteinPer100g,
-        int carbsPer100g,
-        int fatPer100g);
+        int s8CaloriesPer100g,
+        int s8ProteinPer100g,
+        int s8CarbsPer100g,
+        int s8FatPer100g);
 
-    int getId() const;
-    std::string getName() const;
-    int getCaloriesPer100g() const;
-    int getProteinPer100g() const;
-    int getCarbsPer100g() const;
-    int getFatPer100g() const;
+    int         getId()              const;
+    std::string getName()            const;
+    int         getCaloriesPer100g() const;
+    int         getProteinPer100g()  const;
+    int         getCarbsPer100g()    const;
+    int         getFatPer100g()      const;
 
-
-    void setCaloriesPer100g(int cal);
-
-
-    static void setIdGenerator(int val);
+    void setCaloriesPer100g(int s8Cal);
+    static void setIdGenerator(int s8Val);
 };
