@@ -1,36 +1,32 @@
-#pragma once
+#include "../Date/Date.h"
 
-#include "../Date.h"
-
-enum class GoalType {
+enum class GoalType
+{
     WEIGHT_LOSS,
     BULKING,
     MAINTENANCE
 };
 
-class FitnessGoal {
+class FitnessGoal
+{
 private:
     GoalType goalType;
-    double targetValue;
-    Date startDate;
-    Date deadline;
-    bool isAchieved;
+    double   f32TargetValue;
+    Date     startDate;
+    Date     deadline;
+    bool     isAchieved;
 
 public:
     FitnessGoal(GoalType goalType,
-        double targetValue,
+        double f32TargetValue,
         const Date& startDate,
         const Date& deadline);
 
-    GoalType getGoalType() const;
-
-    double getTargetValue() const;
-
-    Date getStartDate() const;
-
-    Date getDeadline() const;
-
-    bool getIsAchieved() const;
+    GoalType getGoalType()    const;
+    double   getTargetValue() const;
+    Date     getStartDate()   const;
+    Date     getDeadline()    const;
+    bool     getIsAchieved()  const;
 
     void completeGoal();
 };
