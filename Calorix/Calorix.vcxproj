@@ -127,9 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Calorix\Calorix.cpp" />
     <ClCompile Include="FileManager\FileManager.cpp" />
     <ClCompile Include="UsersLogic\Admin.cpp" />
-    <ClCompile Include="Calorix.cpp" />
     <ClCompile Include="Date\Date.cpp" />
     <ClCompile Include="Exercises\ExerciseEntries.cpp" />
     <ClCompile Include="Exercises\Exercise.cpp" />
@@ -142,6 +142,7 @@
     <ClCompile Include="UsersLogic\Trainee.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Calorix\Calorix.h" />
     <ClInclude Include="FileManager\FileManager.h" />
     <ClInclude Include="UsersLogic\Admin.h" />
     <ClInclude Include="Date\Date.h" />
