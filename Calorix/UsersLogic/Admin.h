@@ -24,3 +24,4 @@ public:
     void help() const override;
     ~Admin() override = default;
 };
+
