@@ -130,6 +130,7 @@
     <ClCompile Include="Calorix\Calorix.cpp" />
     <ClCompile Include="FileManager\FileManager.cpp" />
     <ClCompile Include="InputParser\InputParser.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Session helper functions\Session.cpp" />
     <ClCompile Include="UsersLogic\Admin.cpp" />
     <ClCompile Include="Date\Date.cpp" />

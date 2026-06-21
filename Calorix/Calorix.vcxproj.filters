@@ -57,6 +57,9 @@
     <ClCompile Include="InputParser\InputParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UsersLogic\UserProfile.h">
