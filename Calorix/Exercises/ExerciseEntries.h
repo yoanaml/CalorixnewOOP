@@ -1,6 +1,3 @@
-#ifndef EXERCISE_ENTRIES_H
-#define EXERCISE_ENTRIES_H
-
 #include "Exercise.h"
 #include "../Date/Date.h"
 
@@ -24,5 +21,3 @@ public:
 
     double calculateBurnedCalories() const;
 };
-
-#endif 

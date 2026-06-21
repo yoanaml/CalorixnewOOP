@@ -132,6 +132,7 @@
     <ClCompile Include="InputParser\InputParser.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Session helper functions\Session.cpp" />
+    <ClCompile Include="UsersLogic\UserProfile.cpp" />
     <ClCompile Include="UsersLogic\Admin.cpp" />
     <ClCompile Include="Date\Date.cpp" />
     <ClCompile Include="Exercises\ExerciseEntries.cpp" />
@@ -139,7 +140,6 @@
     <ClCompile Include="FitnessGoal\FitnessGoal.cpp" />
     <ClCompile Include="Food\FoodEntries.cpp" />
     <ClCompile Include="Food\Food.cpp" />
-    <ClCompile Include="UsersLogic\UserProfile.cpp" />
     <ClCompile Include="UsersLogic\User.cpp" />
     <ClCompile Include="UsersLogic\Trainee.cpp" />
   </ItemGroup>
@@ -148,6 +148,7 @@
     <ClInclude Include="FileManager\FileManager.h" />
     <ClInclude Include="InputParser\InputParser.h" />
     <ClInclude Include="Session helper functions\Session.h" />
+    <ClInclude Include="UsersLogic\UserProfile.h" />
     <ClInclude Include="UsersLogic\Admin.h" />
     <ClInclude Include="Date\Date.h" />
     <ClInclude Include="Exercises\ExerciseEntries.h" />
@@ -155,7 +156,6 @@
     <ClInclude Include="FitnessGoal\FitnessGoal.h" />
     <ClInclude Include="Food\FoodEntries.h" />
     <ClInclude Include="Food\Food.h" />
-    <ClInclude Include="UsersLogic\UserProfile.h" />
     <ClInclude Include="UsersLogic\User.h" />
     <ClInclude Include="UsersLogic\Trainee.h" />
   </ItemGroup>

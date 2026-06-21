@@ -237,8 +237,6 @@ void FileManager::load(Calorix& system, const std::string& filename)
         return;
     }
 
-    // Metadata values — applied after all objects are loaded so that id generators
-    // are not disturbed by constructors called during loading.
     int metaFoodId = -1, metaExerciseId = -1, metaFoodEntryId = -1;
     int metaExerciseEntryId = -1, metaUserId = -1;
 

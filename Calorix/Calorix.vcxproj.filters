@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UsersLogic\UserProfile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="UsersLogic\User.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -60,11 +57,11 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UsersLogic\UserProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="UsersLogic\UserProfile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="UsersLogic\User.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -102,6 +99,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="InputParser\InputParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersLogic\UserProfile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

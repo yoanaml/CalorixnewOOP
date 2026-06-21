@@ -1,4 +1,3 @@
-
 #include <string>
 
 enum class ActivityLevel
