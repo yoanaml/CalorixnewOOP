@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Calorix\Calorix.cpp" />
     <ClCompile Include="FileManager\FileManager.cpp" />
+    <ClCompile Include="InputParser\InputParser.cpp" />
     <ClCompile Include="Session helper functions\Session.cpp" />
     <ClCompile Include="UsersLogic\Admin.cpp" />
     <ClCompile Include="Date\Date.cpp" />
@@ -144,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="Calorix\Calorix.h" />
     <ClInclude Include="FileManager\FileManager.h" />
+    <ClInclude Include="InputParser\InputParser.h" />
     <ClInclude Include="Session helper functions\Session.h" />
     <ClInclude Include="UsersLogic\Admin.h" />
     <ClInclude Include="Date\Date.h" />
