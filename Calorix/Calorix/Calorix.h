@@ -1,6 +1,6 @@
 #include <memory>
 #include <unordered_map>
-#include "User.h"
+#include "../UsersLogic/User.h"
 #include "../UsersLogic/Trainee.h"
 #include "../UsersLogic/Admin.h"
 #include "../Food/Food.h"
