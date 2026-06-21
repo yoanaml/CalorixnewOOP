@@ -111,8 +111,7 @@ void Trainee::viewProgress() const
         {
         case GoalType::WEIGHT_LOSS:  typeStr = "Weight loss";  break;
         case GoalType::BULKING:      typeStr = "Bulking";      break;
-        case GoalType::
-        TENANCE:  typeStr = "Maintenance";  break;
+        case GoalType::MAINTENANCE:  typeStr = "Maintenance";  break;
         }
         double f32Target = goal.getTargetValue();
         double f32Diff = f32CurrentWeight - f32Target;

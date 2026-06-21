@@ -1,3 +1,4 @@
+#pragma once
 #include "Exercise.h"
 #include "../Date/Date.h"
 

@@ -1,3 +1,4 @@
+#pragma once
 #include "User.h"
 #include "../Food/FoodEntries.h"
 #include "../Exercises/ExerciseEntries.h"
