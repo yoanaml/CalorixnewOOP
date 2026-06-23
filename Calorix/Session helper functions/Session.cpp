@@ -149,6 +149,7 @@ void runTest(Calorix& system)
 
     User* p_afterBlock = system.login("trainee1", "pass123");
     std::cout << "Login after block: " << (!p_afterBlock ? "correctly rejected" : "FAIL") << "\n";
+    FileManager::save(system, "demo1");
 
     std::cout << "\n=== Test complete ===\n\n";
 }

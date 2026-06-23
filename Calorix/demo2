@@ -1,0 +1,20 @@
+# Calorix save file v1
+
+[METADATA]
+food_id_gen|2
+exercise_id_gen|2
+food_entry_id_gen|2
+exercise_entry_id_gen|2
+user_id_gen|2
+
+[FOOD]
+1|Chicken|165|31|0|4
+2|Rice|140|3|28|1
+
+[EXERCISE]
+1|Running|600|CARDIO
+2|Squats|400|LEGS
+
+[USER:ADMIN]
+0|admin1|adminpass|SECRET
+
