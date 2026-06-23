@@ -8,7 +8,7 @@
 
 int main()
 {
-    Calorix system;
+    Calorix& system = Calorix::getInstance();
     std::cout << "Please select an option\n";
     std::cout << "1: login\n";
     std::cout << "2: register\n";

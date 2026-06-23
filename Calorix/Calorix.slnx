@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Calorix/Calorix.vcxproj" Id="0da77fa8-8973-49ea-b490-574a45284503" />
+</Solution>

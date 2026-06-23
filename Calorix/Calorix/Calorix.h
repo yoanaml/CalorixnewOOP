@@ -17,7 +17,15 @@ class Calorix
     std::unordered_map<std::string, Food>                  foods;
     std::unordered_map<std::string, Exercise>              exercises;
 
+    Calorix() = default;
+
 public:
+
+    Calorix(const Calorix&) = delete;
+    Calorix& operator=(const Calorix&) = delete;
+
+    static Calorix& getInstance();
+
     bool registerTrainee(
         const std::string& username,
         const std::string& password,

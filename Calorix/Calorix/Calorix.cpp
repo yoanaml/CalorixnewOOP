@@ -1,5 +1,11 @@
 #include "Calorix.h"
 
+Calorix& Calorix::getInstance()
+{
+    static Calorix instance;
+    return instance;
+}
+
 bool Calorix::registerTrainee(const std::string& username, const std::string& password,
     int s8Age, double f32Weight, double f32Height, Gender gender, ActivityLevel activityLevel)
 {
